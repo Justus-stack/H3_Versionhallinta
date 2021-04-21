@@ -10,9 +10,17 @@ git log komennolla näkyy lokit vanhoista
 
 ![kuva1](/images/kuva1.png)
 
+git diff komentoa käytetään, kun halutaan tietää mitä muutoksia kahden eri version välillä on.
+
+![kuva1](/images/kuva2.png)
+
+git blame komennolla näkee että, kuka on muokannut tiettyä riviä viimeksi.
+
+![kuva3](/images/kuva3.png)
+
 ## e) Tee tyhmä muutos gittiin
 
-
+tein tyhmän muutoksen gittiin.
 
 ## f)Tee uusi salt moduuli
 
