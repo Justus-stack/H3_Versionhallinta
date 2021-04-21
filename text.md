@@ -30,5 +30,5 @@ git vaihtoi viimeiseen versioon ja teksti oli tullut taikaisin
 
 ## f)Tee uusi salt moduuli
 
-//tee 
+//tehtävä on vielä kesken
 
