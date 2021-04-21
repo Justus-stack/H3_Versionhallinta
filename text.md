@@ -32,20 +32,24 @@ git vaihtoi viimeiseen versioon ja teksti oli tullut taikaisin
 
 Tein saltilla moduulin, joka asentaa MyPaint ohjelman.
 
-ensiksi tein /srv/salt/paint kansioon init.sls tiedoston. laitoin init.sls tiedostoon seuraavan koodinpätkän:
+ensiksi tein /srv/salt/paint kansioon init.sls tiedoston. laitoin sinne init.sls tiedostoon seuraavan koodinpätkän:
 
 	mypaint:
 	  pkg.installed
 
-Testasin toimiiko
-
-![kuva5](/images/kuva5.png)
+Testasin toimiiko sovellus, joten avasin sen ja se toimi.
 
 ![kuva6](/images/kuva6.png)
 
+poistin mypaint paketit ja kokeilin ajaa salt state.apply komennoilla:
+
+	sudo apt purge mypaint
+	sudo salt '*' state.apply paint
+
 ![kuva7](/images/kuva7.png)
 
-paketti asentui oikein.
+paketti asentui oikein ja kun ajoin komennon uudestaan niin se oli harmoonisessa tilassa.
+
 ## Lähteet:
 
 Tero Karvinen. Publish your project with GitHub. luettavissa: terokarvinen.com/2016/publish-your-project-with-github/index.html Luettu: 21.4.2021
