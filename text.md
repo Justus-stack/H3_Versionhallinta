@@ -6,6 +6,10 @@
 
 tein varaston githubiin tätä tehtävää varten. Loin text.md tiedoston, johon laitoin vähän teksiä, jotta voisin testata git log, git diff ja git blame komentoja
 
+git log komennolla näkyy lokit vanhoista 
+
+![kuva1](/images/kuva1.png)
+
 ## e) Tee tyhmä muutos gittiin
 
 
