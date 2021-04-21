@@ -39,12 +39,14 @@ ensiksi tein /srv/salt/paint kansioon init.sls tiedoston. laitoin init.sls tiedo
 
 Testasin toimiiko
 
-![kuva5](/images/kuva5)
+![kuva5](/images/kuva5.png)
 
-![kuva6](/images/kuva6)
+![kuva6](/images/kuva6.png)
 
-![kuva7](/images/kuva7)
-Lähteet:
+![kuva7](/images/kuva7.png)
+
+paketti asentui oikein.
+## Lähteet:
 
 Tero Karvinen. Publish your project with GitHub. luettavissa: terokarvinen.com/2016/publish-your-project-with-github/index.html Luettu: 21.4.2021
 
