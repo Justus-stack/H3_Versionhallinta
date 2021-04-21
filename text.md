@@ -20,7 +20,13 @@ git blame komennolla näkee että, kuka on muokannut tiettyä riviä viimeksi.
 
 ## e) Tee tyhmä muutos gittiin
 
-tein tyhmän muutoksen gittiin.
+tein tyhmän muutoksen gittiin. Muutin text.md tiedostoa poistamalla rivin tekstiä. tallensin tekstitiedoston ja ajoin komennon:
+
+	sudo git reset --hard
+
+![kuva4](/images/kuva4.png)
+
+git vaihtoi viimeiseen versioon ja teksti oli tullut taikaisin 
 
 ## f)Tee uusi salt moduuli
 
