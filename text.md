@@ -30,5 +30,21 @@ git vaihtoi viimeiseen versioon ja teksti oli tullut taikaisin
 
 ## f)Tee uusi salt moduuli
 
-//tehtävä on vielä kesken
+Tein saltilla moduulin, joka asentaa MyPaint ohjelman.
+
+ensiksi tein /srv/salt/paint kansioon init.sls tiedoston. laitoin init.sls tiedostoon seuraavan koodinpätkän:
+
+	mypaint:
+	  pkg.installed
+
+Testasin toimiiko
+
+![kuva5](/images/kuva5)
+
+![kuva6](/images/kuva6)
+
+![kuva7](/images/kuva7)
+Lähteet:
+
+Tero Karvinen. Publish your project with GitHub. luettavissa: terokarvinen.com/2016/publish-your-project-with-github/index.html Luettu: 21.4.2021
 
